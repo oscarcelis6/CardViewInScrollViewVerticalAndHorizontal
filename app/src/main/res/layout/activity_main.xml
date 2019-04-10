@@ -7,11 +7,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <!--Para cambiar a vista horizontal deberá cambiar
+    ScrollView por HorizontalScrollView-->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-
+    <!--También deberá cambiar vertical por horizontal
+    únicamente en este LinearLayout-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
